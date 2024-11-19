@@ -3,68 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Banking Data Analysis Project leveraging Azure, SQL Server, Power BI, and SSIS for efficient data processing and insightful reporting.">
+    <meta name="description" content="Banking Data Analysis Project leveraging Azure, SQL Server, SSIS, and Power BI for efficient data processing and insightful reporting.">
     <meta name="author" content="Mohamed Said">
-    <title>Banking Data Analysis Project</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f9;
-            color: #333;
-            margin: 0;
-            padding: 20px;
-        }
-        h1, h2 {
-            color: #0056b3;
-        }
-        ul {
-            line-height: 1.8;
-        }
-        a {
-            color: #007bff;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-        footer {
-            margin-top: 40px;
-            text-align: center;
-            font-size: 0.9rem;
-            color: #777;
-        }
-        .demo-link {
-            display: inline-block;
-            background-color: #28a745;
-            color: #fff;
-            padding: 10px 20px;
-            text-decoration: none;
-            border-radius: 5px;
-            margin-top: 10px;
-        }
-        .demo-link:hover {
-            background-color: #218838;
-        }
-    </style>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Banking Data Analysis Project</h1>
-        </header>
-        
+    <header>
+        <h1>Banking Data Analysis Project</h1>
+    </header>
+
+<main>
         <section>
             <p>This project provides an in-depth analysis of banking system data to drive operational efficiency, enhance customer experience, and optimize decision-making processes. The data analysis pipeline leverages cutting-edge tools and platforms such as Azure Synapse Analytics, SQL Server, SSIS, and Power BI.</p>
 
-            <h2>Technologies Used</h2>
+<h2>Technologies Used</h2>
             <ul>
                 <li><strong>SQL Server</strong> - Data storage and management</li>
                 <li><strong>SSIS (SQL Server Integration Services)</strong> - Data integration and workflow automation</li>
@@ -74,10 +27,10 @@
                 <li><strong>Python</strong> - Data manipulation and automation</li>
             </ul>
 
-            <h2>Project Overview</h2>
+<h2>Project Overview</h2>
             <p>The primary objective of this project is to extract, clean, and analyze banking data to derive actionable insights. The data is processed using Azure Data Factory and Azure Synapse Analytics, ensuring scalability and performance. SSIS is used to integrate and automate workflows, while Power BI is employed for dynamic reports and dashboards, providing valuable insights for decision-making.</p>
 
-            <h2>Key Features</h2>
+<h2>Key Features</h2>
             <ul>
                 <li><strong>Data Transformation & ETL:</strong> Leveraged Azure Data Factory and SSIS for seamless data extraction, transformation, and loading.</li>
                 <li><strong>Advanced Analytics:</strong> Performed in-depth analysis using Azure Synapse Analytics for high-performance processing.</li>
@@ -86,12 +39,12 @@
                 <li><strong>Automation:</strong> Automated data pipelines and reporting processes to enhance efficiency and reduce human error.</li>
             </ul>
 
-            <h2>Demo</h2>
+<h2>Demo</h2>
             <p>Click the button below to view the project demo and see the analysis in action:</p>
-            <a href="https://drive.google.com/file/d/1raGiJWenCzzriVJ6-qU7eVEWqjY0iEWo/view?usp=sharing" class="demo-link" target="_blank">View Demo</a>
+            <a href="https://drive.google.com/file/d/1raGiJWenCzzriVJ6-qU7eVEWqjY0iEWo/view?usp=sharing" target="_blank" class="button">View Demo</a>
         </section>
 
-        <section>
+<section>
             <h2>Installation & Setup</h2>
             <p>To run this project locally, follow these steps:</p>
             <ul>
@@ -101,14 +54,16 @@
             </ul>
         </section>
 
-        <section>
+<section>
             <h2>Contributing</h2>
             <p>If you wish to contribute to this project, please follow the guidelines outlined in the <code>CONTRIBUTING.md</code> file. Contributions are welcome in the form of bug fixes, new features, or improvements to the documentation.</p>
         </section>
+    </main>
 
-        <footer>
-            <p>Project developed by <strong>Mohamed Said</strong></p>
-        </footer>
-    </div>
+<footer>
+        <p>Project developed by <strong>Mohamed Said</strong></p>
+    </footer>
+
+<script src="scripts.js"></script>
 </body>
 </html>
